@@ -1,0 +1,150 @@
+.navbar-container{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img[alt="brand-logo"]{
+    width: 150px;
+}
+
+.list{
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 20px;
+    padding: 5px 20px;
+    font-family: Orbitron;
+    font-weight: 500;
+    
+}
+
+.list li:hover{
+    font-weight: 700;
+    border-bottom: 3px solid #000;
+}
+
+.button-group{
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+
+}
+
+.hero-container{
+    display: flex;
+    padding-top: 10px;
+}
+
+.nav-button{
+    padding: 4px 30px;
+    border-radius: 10px;
+    font-size: 15px
+}
+
+.search-icon svg{
+    width: 20px;
+    height: auto;
+    padding-top: 5px;
+
+}
+
+img[alt="square-pattern"]{
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 215px;
+    width: 330px;
+    height: auto;
+}
+
+img[alt="start-pattern"]{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 1310px;
+    width: 45px;
+    height: auto;
+}
+
+img[alt="globe-pattern"]{
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 30px;
+    width: 60px;
+    height: auto;
+}
+
+.hero-container div img[alt="person-hero-iamge"]{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 400px;
+    height: auto;
+}
+
+.hero-container-right{
+    height: 390px;
+    margin-left: 530px;
+    margin-top: 100px;
+    margin-right: 30px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-heading{
+    font-family: Orbitron;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 55px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.hero-description{
+    margin: 0px 100px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
+.contact-heading{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.button-email{
+    margin-top: 50px;
+    padding: 3px 15px;
+    border-radius: 7px;
+    font-family: Orbitron;
+    margin-right: 5px;
+}
+
+.button-join{
+    margin-left: 5px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+    padding: 3px 2px;
+    border-radius: 7px;
+    font-family: Orbitron;
+}
+
+img[alt="facebook-icon"], img[alt="messenger-icon"],
+img[alt="instagram-icon"], img[alt="whatsapp-icon"]{
+    width: 30px;
+}
+
+button:hover{
+    background-color: grey;
+}
